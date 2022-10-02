@@ -4,8 +4,6 @@ Dark-Mode theme using localStorage and CSS Variables.
 
 ### Initialization
 
-Tabs are divided into 2 main sections - `Tabs Nav` and `Tabs Panels`.
-
 Create the CSS Variables
 
 ```css
