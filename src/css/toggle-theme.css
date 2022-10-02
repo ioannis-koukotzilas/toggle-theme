@@ -1,0 +1,31 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+:root {
+  --bg: #ffffff;
+  --text-color: #141414;
+}
+
+
+body {
+  max-width: 600px;
+  margin: 3rem auto;
+  background-color: var(--bg);
+  color: var(--text-color);
+}
+
+/* Toggle Theme
+--------------------------------------------- */
+
+body.dark-mode {
+  --bg: #141414;
+  --text-color: #eeeeee;
+}
+
+#toggle-theme {
+  cursor: pointer;
+}
